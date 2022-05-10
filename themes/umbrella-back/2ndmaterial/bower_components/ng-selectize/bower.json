@@ -1,0 +1,7 @@
+{
+  "name": "ng-selectize",
+  "version": "0.0.6",
+  "dependencies": {
+    "selectize": "~0.12.1"
+  }
+}

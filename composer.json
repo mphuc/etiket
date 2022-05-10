@@ -1,0 +1,28 @@
+{
+    "name": "gitsolution/umbrella",
+    "description": "repositori ini adalah milik PT GitSolution, dilarang copy paste tanpa ijin",
+    "require": {
+        "bitmannl/codeigniter-modular-extensions": "^2.0",
+        "mailgun/mailgun-php": "^2.4",
+        "php-http/curl-client": "^1.7",
+        "cocur/slugify": "^3.1",
+        "jenssegers/blade": "^1.1",
+        "swiftmailer/swiftmailer": "^5.4",
+        "dompdf/dompdf": "^0.8.5",
+        "phpoffice/phpexcel": "^1.8",
+        "phpoffice/phpspreadsheet": "^1.5",
+        "xendit/xendit-php-clients": "^1.3",
+        "picqer/php-barcode-generator": "^2.0",
+        "setasign/fpdf": "^1.8",
+        "google/apiclient": "^2.7",
+        "guzzlehttp/guzzle": "6.2.1",
+        "xendit/xendit-php": "2.5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mas Sigits",
+            "email": "gitsolution.pt@gmail.coml"
+        }
+    ]
+}

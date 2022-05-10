@@ -1,0 +1,110 @@
+.mdn-btn-small {padding: 2px 9px; font: 500 12px/31px Roboto,sans-serif !important; }
+
+.modal-backdrop, .modal-backdrop.fade.in {
+	opacity: 0.4 !important;
+}
+.mintop {
+	margin-top: -70px;
+}
+.mintop20 {
+	margin-top: -30px;
+}
+.medialist {
+	margin-left: 25px;
+	padding: 0px 5px 0px 0px;
+}
+.btm5 {
+	padding-bottom: 5px;
+}
+.noheight {
+	height: 200px !important;
+	min-height: 200px !important;
+}
+.center {
+	text-align: center;
+}
+.uk-modal {
+	z-index: 1100;
+}
+.listtypea{
+	padding: 0px 10px 0px 10px;
+	border-right: 1px solid #212121;
+	font-weight: 600;
+}
+.nobdright {
+	padding: 0px 10px 0px 10px;
+	font-weight: 600;
+}
+.activelinkCRUD {
+	color: #212121;
+	font-weight: 800;
+}
+.splashcatopen {
+	width: 2px;
+	margin-left: 10px;
+	border-left: #08c solid 1px;
+}
+.splashcat {
+	width: 15px;
+	padding-right: 20px;
+	margin-left: -4px;
+	border-bottom: #08c solid 1px;
+}
+.splashmargin {
+	width: 15px;
+	margin-left: 10px;
+	padding-right: 10px;
+}
+.colorvalue {
+	
+	text-align: center;
+	padding: 10px;
+}
+.float-right {
+	float: right;
+}
+#header_main .user_actions .user_action_icon>.uk-badge {
+	background: rgba(229,57,53,1);
+}
+#sidebar_main .sidebar_main_header .sidebar_logo {
+	height: 90px;
+}
+#sidebar_secondary.tabbed_sidebar {
+	padding-top: 5px;
+}
+
+
+/* CUSTOM */
+#header_main {
+	background: #4acbf5 !important;
+}
+
+.sidebar_logo {
+	text-align: center;
+}
+
+.sidebar_logo img {
+	height: 80px !important;
+	width: auto !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#sidebar_main .sidebar_main_header .sidebar_logo a {
+	display: inline-block;
+	margin-left: 0;
+	text-decoration: none !important;
+}
+
+#sidebar_main .menu_section>ul>li.current_section>a .menu_title {
+	color: #39f;
+}
+
+#sidebar_main .menu_section>ul>li.current_section>a>.menu_icon .material-icons {
+	color: #39f;
+}
+
+#sidebar_main .menu_section>ul>li ul li.act_item>a {
+	color: #39f;
+	font-weight: 500;
+}

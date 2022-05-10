@@ -1,0 +1,17 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+//THIS IS FOR LIVE / PRODUCTION
+// $config['mail']   = 'vredeburgkemdikbud@gmail.com';
+// $config['pass']   = 'password1324';
+
+$config['mail_main']   = '_mainaccount@alhidayahmejing.com';
+$config['mail_smtp']   = 'smtpmail@alhidayahmejing.com';
+$config['pass']   = 'mejingbersatu';
+
+$config['smtp_host']    = 'ssl://mail.bentengvredeburg.co.id';
+$config['smtp_post']    = 587;
+$config['smtp_user']    = 'noreply@bentengvredeburg.co.id';
+$config['smtp_pass']    = '5000dKkM';
+$config['smtp_name']    = 'BentengVredeburg';

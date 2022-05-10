@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Testing ng-selectize</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/selectize.css">
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js//selectize.js"></script>
+    <script type="text/javascript" src="assets/js/angular.js"></script>
+    <script type="text/javascript" src="ng-selectize.js"></script>
+    <script>
+
+      (function(angular) {
+        angular.module('TestApp', ['ng-selectize'])
+          .controller('TestController', function($scope) {
+            $scope.config = {
+    					valueField: 'value',
+    					labelField: 'text',
+    					searchField: ['value'],
+    					sortField: 'value',
+    					placeholder: 'Type Something',
+    					allowEmptyOption: true,
+    					create: true
+    				}
+
+            $scope.options = [
+              { value: 'foo', text: 'Foo' },
+        			{ value: 'bar', text: 'Bar' },
+        			{ value: 'beep', text: 'Beep' },
+        			{ value: 'boop', text: 'Boop' },
+        			{ value: 'unicorn', text: 'Unicorn!' }
+            ]
+
+            $scope.model = {};
+          });
+
+      })(this.angular);
+
+    </script>
+  </head>
+  <body ng-app="TestApp" ng-controller="TestController">
+    <select selectize="config" items="model" options="options" ng-model="model"></select>
+  </body>
+</html>
